@@ -15,7 +15,7 @@ public class Book {
         /* construct the object with an array of chapter names */
         /* PLEASE ADD YOUR CODE HERE */
         chapters = new String[argument.length];
-        for (int i = 0; i < chapters.length; i++)
+        for (int i = 0; i < argument.length; i++)
             chapters[i] = argument[i];
     }
     public String getChapter(int i) {
